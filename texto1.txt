@@ -15,3 +15,15 @@ mv archivo.txt archivo1.txt
 
 git mv archivo.txt archivo1.txt
     sirve para modificar de manera mas rapida salteando que la modificacion se agregue en stage, pasa derecho al ADD para el commit.
+
+git status -s
+    es una forma mas simplificada de status, solo muestra los archivos en stage o para commint.
+
+git diff
+    nos permite ver un detalle un poco mas optimo de las modificacion que estamos realizando dentro del archivo.
+
+git log
+    nos permite ver los commits con el detalle del numero de commit (que es unico), el nombre de usuario, el email y el mensaje que agregamos al commit
+
+git log --oneline
+    es una forma un poco mas resumida de git log, nos muestra un numero de commit y el mensaje que agregamos en el commit.
