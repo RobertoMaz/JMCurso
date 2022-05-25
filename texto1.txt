@@ -42,3 +42,9 @@ git checkout master o nombre de otra rama
 
 git merge (nombre de la rama)
     con este comando agregamos las modificaciones del branch el cual puse su nombre de branch, al master.
+
+git push
+    con este comando subimos a GITHUB los archivos ya commiteados,
+
+git push -u origin branch
+    podemos subir alguna rama a github.
