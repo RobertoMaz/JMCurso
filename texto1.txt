@@ -12,3 +12,6 @@ git restore archivo.txt
 
 mv archivo.txt archivo1.txt
     mv recibe 2 parametros, el primero es el nombre actual y el segundo es el nombre por el cual se va a modificar el archivo.
+
+git mv archivo.txt archivo1.txt
+    sirve para modificar de manera mas rapida salteando que la modificacion se agregue en stage, pasa derecho al ADD para el commit.
