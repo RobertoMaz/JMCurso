@@ -1,0 +1,14 @@
+rm archivo.txt
+    sirve para eliminar un archivo, se pone en etapa de stage, para despues agregar con ADD y luego commit.
+
+git rm archivo.txt 
+    Con este comando eliminamos el archivo pero nos ahorramos el paso de pasar a stage para luego agregar con ADD , ya pasa directo a la seccion de ADD solo faltaria el commit.
+
+git restore --staged archivo.txt
+    recupera un archivo eliminado y lo deja en zona de stage.
+
+git restore archivo.txt
+    el archivo recuperado se devuelve a ADD solo faltaria el commit en caso de hacer commit.
+
+mv archivo.txt archivo1.txt
+    mv recibe 2 parametros, el primero es el nombre actual y el segundo es el nombre por el cual se va a modificar el archivo.
