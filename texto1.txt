@@ -27,3 +27,9 @@ git log
 
 git log --oneline
     es una forma un poco mas resumida de git log, nos muestra un numero de commit y el mensaje que agregamos en el commit.
+
+git branch
+    nos permite verificar en que rama estamos.
+
+git checkout -b nombreDeLaRama
+    con este comando, podemos agregar una rama al git, que vaya paralelo al main.
