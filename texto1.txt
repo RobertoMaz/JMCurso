@@ -48,3 +48,6 @@ git push
 
 git push -u origin branch
     podemos subir alguna rama a github.
+
+git branch -d (nombre de la rama)
+    sirve para eliminar un branch.
