@@ -39,3 +39,6 @@ cat archivo.txt
 
 git checkout master o nombre de otra rama
     volvemos a posicionarnos sobre el master.
+
+git merge (nombre de la rama)
+    con este comando agregamos las modificaciones del branch el cual puse su nombre de branch, al master.
