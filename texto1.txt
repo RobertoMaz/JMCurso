@@ -33,3 +33,9 @@ git branch
 
 git checkout -b nombreDeLaRama
     con este comando, podemos agregar una rama al git, que vaya paralelo al main.
+
+cat archivo.txt
+    vemos el detalle del contenido del archivo.
+
+git checkout main
+    volvemos a posicionarnos sobre el main.
