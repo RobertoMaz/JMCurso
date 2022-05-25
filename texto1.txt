@@ -37,5 +37,5 @@ git checkout -b nombreDeLaRama
 cat archivo.txt
     vemos el detalle del contenido del archivo.
 
-git checkout main
-    volvemos a posicionarnos sobre el main.
+git checkout master o nombre de otra rama
+    volvemos a posicionarnos sobre el master.
