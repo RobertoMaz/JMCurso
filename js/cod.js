@@ -13,6 +13,7 @@ import searchFilters from "./filtros_de_busqueda.js";
 import draw from "./Sorteo.js";
 import slider from "./slider.js";
 import scrollSpy from "./scroll_espia.js";
+import smartVideo from "./video_inteligente.js";
 
 
 const d=document;
@@ -32,6 +33,7 @@ d.addEventListener("DOMContentLoaded", (e) => {
     draw("#winner-btn", ".player");
     slider();
     scrollSpy();
+    smartVideo();
 })
 
 d.addEventListener("keydown", (e) => {
